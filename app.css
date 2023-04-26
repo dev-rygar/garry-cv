@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Forum', serif;
+}
+
+.hero {
+    background-color: #f08e80;
+    min-height: 90vh;
+    color: whitesmoke;
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+}
+
+.navbar .links a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin-right: 16px;
+    font-size: 1.2rem;
+}
+
+/* Navbar P Element */
+.navbar .garry-main {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar .contact {
+    background-color: whitesmoke;
+    color: #f08e80;
+    padding: 16px 24px;
+    text-decoration: none;
+}
+
+.navbar .contact:hover {
+    opacity: 0.8;
+}
+
+.hero-content {
+    padding: 0 15%;
+}
+
+.hero-content .tagline {
+    font-size: 4.3rem;
+    opacity: 0.9;
+    letter-spacing: 2px;
+}
+
+.two-column-section {
+    font-size: 2rem;
+}
+
+.two-column-section > p {
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.two-column-section .skills{
+    width:  50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    list-style: none;
+}
+
+.two-column-section .skills li{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    font-size: 1.25rem;
+    margin: 8px 0;
+}
+
+.blog-section {
+    padding: 64px 0;
+}
+
+.blog-content {
+    padding: 0 15%;
+}
+
+/* here */
+.two-column-section .blog-posts {
+    width: 50%;
+    float: left;
+}
+
+.blog-heading {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+
+.blog-text {
+    font-size: 1rem;
+}
+
+.blog-posts .blog-date {
+    font-size: 0.9rem;
+    color:gray;
+    opacity: 0.9;
+    margin-bottom: 32px;
+}
+
+.blog-posts p {
+    margin: 8px 0;
+}
+
+.blog-posts {
+    margin-top: 24px;
+}
+
+.events-section {
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 64px 0;
+    display: inline-block;
+}
+
+.events-content {
+    padding: 0 15%;
+}
+
+.events-card {
+    width: 50%;
+    float: left;
+    margin-top: 24px;
+}
+
+.events-card p {
+    margin: 8px 0;
+}
+
+.events-title {
+    font-size: 1.5rem;
+}
+
+.events-location {
+    font-size: 1rem;
+}
+
+.events-card .events-date {
+    font-size: 0.9rem;
+    color:grey;
+    opacity: 0.9;
+}
+
+footer {
+    background-color: black;
+    color: whitesmoke;
+    padding: 60px;
+    text-align: center;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 8px;
+}
+
+.heart-emoji {
+    color: red;
+}
